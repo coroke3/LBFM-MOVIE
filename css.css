@@ -146,7 +146,7 @@ body {
     color: #fff;
 }
 .work1{
-    width:560px;
+    width:50%;
 }
 .work2{
     width: 30%;
@@ -199,14 +199,15 @@ body {
 }
 iframe {
     box-shadow: 0 0 50px rgb(233, 227, 255);
+    margin: auto;
 }
 
 @media screen and (max-width: 1400px) {
     .items .item {
-        width: 14%;
+        width: 17%;
     }
     .im {
-        width: 97%;
+        width: 99%;
     }
     .item-title {
         font-size: 1.5rem;
@@ -217,9 +218,7 @@ iframe {
 }
 
 @media screen and (max-width: 980px) {
-    .items .item {
-        width: 19%;
-    }
+
     .im {
         width: 98%;
     }
@@ -239,6 +238,12 @@ iframe {
         width: 400px;
         margin-left: -30%;
         margin-top: -1%;
+    }
+    .work1{
+        width: 100%;
+    }
+    .work2{
+        width: 100%;
     }
 }
 
