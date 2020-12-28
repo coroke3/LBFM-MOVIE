@@ -23,6 +23,14 @@ h2 {
     font-size: 35px;
     text-shadow: 0 0 40px rgb(0, 0, 50);
 }
+h3 {
+    color: #fff;
+    font-family: din-2014, sans-serif;
+    font-weight: 800;
+    font-style: italic;
+    font-size: 20px;
+    text-shadow: 0 0 40px rgb(0, 0, 50);
+}
 
 p {
     color: #fff;
@@ -30,14 +38,21 @@ p {
     font-weight: 500;
     font-style: italic;
     margin: 2%;
-    text-shadow: 0 0 10px rgb(0, 0, 50);
+    text-shadow: 0 0 30px rgb(0, 0, 50);
     text-decoration: none;
+}
+.notma {
+    margin: 0;
+    text-shadow: 40px 40px 40px rgb(0, 0, 50);
+
 }
 
 a {
     color: #fff;
     text-decoration: none;
 }
+
+
 
 body {
     background-color: #000;
@@ -73,7 +88,7 @@ body {
 }
 
 .items .item {
-    width: 11%;
+    width: 9%;
     margin: 2px;
 }
 
@@ -96,12 +111,48 @@ body {
     text-shadow: 0 0 10px rgb(203, 188, 255);
     text-decoration: none;
 }
+.item-title2 {
+    font-family: din-2014, sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    margin: 15px 0px 5px 0px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #fff;
+    text-shadow: 0 0 10px rgb(203, 188, 255);
+    text-decoration: none;
+}
+
+
 
 .im {
     width: 98%;
     border-radius: 50%;
     box-shadow: 0 0 10px rgb(233, 227, 255);
 }
+
+.works {
+    margin: 4%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+.work1 .work2{
+	margin: 10px auto;
+	padding: 5px 10px;
+	box-sizing: border-box;
+	background-color: #343434;
+    color: #fff;
+}
+.work1{
+    width:560px;
+}
+.work2{
+    width: 30%;
+    margin: 6%;
+}
+
 
 .kyatti {
     margin: 50px 0px 50px 0px;
@@ -137,18 +188,22 @@ body {
     width: 100%;
     height: 100%;
     justify-content: center;
-    align-items: center;
+    align-items: center;   
     text-align: center;
     margin: auto;
 }
-
+#rogo2{
+    width: 400px;
+    margin-left: -45%;
+    margin-top: -1%;
+}
 iframe {
     box-shadow: 0 0 50px rgb(233, 227, 255);
 }
 
 @media screen and (max-width: 1400px) {
     .items .item {
-        width: 19%;
+        width: 14%;
     }
     .im {
         width: 97%;
@@ -158,9 +213,6 @@ iframe {
     }
     .item-title2 {
         font-size: 1.2rem;
-    }
-    .item-title3 {
-        font-size: 1rem;
     }
 }
 
@@ -183,11 +235,21 @@ iframe {
     iframe {
         width: 100%;
     }
+    #rogo2{
+        width: 400px;
+        margin-left: -30%;
+        margin-top: -1%;
+    }
 }
 
 @media screen and (max-width: 750px) {
     .items .item {
         width: 30%;
+    }
+    #rogo2{
+        width: 65%;
+        margin-left: -30%;
+        margin-top: -1%;
     }
 }
 
