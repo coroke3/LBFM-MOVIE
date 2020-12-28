@@ -56,6 +56,7 @@ a {
 
 body {
     background-color: #000;
+    margin: 0;
 }
 
 .twitter {
@@ -161,14 +162,22 @@ body {
 }
 
 #about {
-    margin: 10%;
+    padding: 2% 10% 10% 10%;
+    background-color:rgba(0, 0, 0, 0.788);
+}
+#mochi{
+    padding: 1%;
+    background-color:rgba(255, 255, 255, 0.500);
+}
+.bleak{
+    color: #000;
 }
 
 #bg-video {
     position: fixed;
-    right: 0;
-    bottom: 0;
-    min-width: 105%;
+    right: -5%;
+    bottom: -5%;
+    min-width: 110%;
     min-height: 110%;
     width: auto;
     height: auto;
@@ -201,6 +210,7 @@ iframe {
     box-shadow: 0 0 50px rgb(233, 227, 255);
     margin: auto;
 }
+
 
 @media screen and (max-width: 1400px) {
     .items .item {
