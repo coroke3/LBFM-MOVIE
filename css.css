@@ -3,7 +3,7 @@
 }
 
 h1 {
-    font-family: din-2014, sans-serif;
+    font-family: ff-basic-gothic-pro, sans-serif;
     font-weight: 700;
     font-style: italic;
     color: #fff;
@@ -17,16 +17,18 @@ h1 {
 
 h2 {
     color: #fff;
-    font-family: din-2014, sans-serif;
-    font-weight: 800;
+    font-family: ff-basic-gothic-pro, sans-serif;
+    font-weight: 700;
     font-style: italic;
     font-size: 35px;
     text-shadow: 0 0 40px rgb(0, 0, 50);
+    padding: 60px 0 0 0;
 }
+
 h3 {
     color: #fff;
-    font-family: din-2014, sans-serif;
-    font-weight: 800;
+    font-family: ff-basic-gothic-pro, sans-serif;
+    font-weight: 700;
     font-style: italic;
     font-size: 20px;
     text-shadow: 0 0 40px rgb(0, 0, 50);
@@ -34,17 +36,23 @@ h3 {
 
 p {
     color: #fff;
-    font-family: source-han-sans-japanese, sans-serif;
+    font-family: a-otf-futo-go-b101-pr6n, sans-serif;
     font-weight: 500;
     font-style: italic;
     margin: 2%;
     text-shadow: 0 0 30px rgb(0, 0, 50);
     text-decoration: none;
 }
+
+.eiji {
+    font-family: ff-basic-gothic-pro, sans-serif;
+    font-weight: 500;
+    font-style: italic;
+}
+
 .notma {
     margin: 0;
     text-shadow: 40px 40px 40px rgb(0, 0, 50);
-
 }
 
 a {
@@ -52,11 +60,13 @@ a {
     text-decoration: none;
 }
 
-
-
 body {
     background-color: #000;
     margin: 0;
+}
+
+.pno {
+    padding: 20px 0 0 0;
 }
 
 .twitter {
@@ -102,18 +112,7 @@ body {
 }
 
 .item-title {
-    font-family: din-2014, sans-serif;
-    font-weight: 400;
-    font-style: italic;
-    margin: 15px 0px 5px 0px;
-    font-size: 1.5rem;
-    font-weight: 700;
-    color: #fff;
-    text-shadow: 0 0 10px rgb(203, 188, 255);
-    text-decoration: none;
-}
-.item-title2 {
-    font-family: din-2014, sans-serif;
+    font-family: ff-basic-gothic-pro, sans-serif;
     font-weight: 400;
     font-style: italic;
     margin: 15px 0px 5px 0px;
@@ -124,7 +123,17 @@ body {
     text-decoration: none;
 }
 
-
+.item-title2 {
+    font-family: ff-basic-gothic-pro, sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    margin: 15px 0px 5px 0px;
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #fff;
+    text-shadow: 0 0 10px rgb(203, 188, 255);
+    text-decoration: none;
+}
 
 .im {
     width: 98%;
@@ -132,28 +141,60 @@ body {
     box-shadow: 0 0 10px rgb(233, 227, 255);
 }
 
+#maru {
+    border-radius: 50%;
+    position: relative;
+    top: 5px;
+}
+
 .works {
     margin: 4%;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-
 }
-.work1 .work2{
-	margin: 10px auto;
-	padding: 5px 10px;
-	box-sizing: border-box;
-	background-color: #343434;
+
+.work1 .work2 {
+    margin: 10px auto;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    background-color: #343434;
     color: #fff;
 }
-.work1{
-    width:50%;
+
+.work1 {
+    width: 50%;
 }
-.work2{
+
+.work2 {
     width: 30%;
     margin: 6%;
 }
 
+.rogos {
+    margin: 0 0 0 10%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.rogo1 .rogo2 {
+    margin: 10px auto;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    background-color: #343434;
+    color: #fff;
+}
+
+.rogo1 {
+    width: 200px;
+    margin: 0;
+}
+
+.rogo2 {
+    width: 300px;
+    margin: auto 0 auto 0;
+}
 
 .kyatti {
     margin: 50px 0px 50px 0px;
@@ -163,13 +204,15 @@ body {
 
 #about {
     padding: 2% 10% 10% 10%;
-    background-color:rgba(0, 0, 0, 0.788);
+    background-color: rgba(0, 0, 0, 0.788);
 }
-#mochi{
+
+#mochi {
     padding: 1%;
-    background-color:rgba(255, 255, 255, 0.500);
+    background-color: rgba(255, 255, 255, 0.500);
 }
-.bleak{
+
+.bleak {
     color: #000;
 }
 
@@ -197,25 +240,27 @@ body {
     width: 100%;
     height: 100%;
     justify-content: center;
-    align-items: center;   
+    align-items: center;
     text-align: center;
     margin: auto;
 }
-#rogo2{
+
+#rogo2 {
     width: 400px;
     margin-left: -45%;
     margin-top: -1%;
 }
-#rogo3{
+
+#rogo3 {
     width: 200px;
     margin-left: -70%;
     margin-top: -1%;
 }
+
 iframe {
     box-shadow: 0 0 50px rgb(233, 227, 255);
     margin: auto;
 }
-
 
 @media screen and (max-width: 1400px) {
     .items .item {
@@ -233,7 +278,6 @@ iframe {
 }
 
 @media screen and (max-width: 980px) {
-
     .im {
         width: 98%;
     }
@@ -249,20 +293,20 @@ iframe {
     iframe {
         width: 100%;
     }
-    #rogo2{
+    #rogo2 {
         width: 400px;
         margin-left: -30%;
         margin-top: -1%;
     }
-    #rogo3{
+    #rogo3 {
         width: 200px;
         margin-left: -60%;
         margin-top: -1%;
     }
-    .work1{
+    .work1 {
         width: 100%;
     }
-    .work2{
+    .work2 {
         width: 100%;
     }
 }
@@ -271,12 +315,12 @@ iframe {
     .items .item {
         width: 30%;
     }
-    #rogo2{
+    #rogo2 {
         width: 65%;
         margin-left: -30%;
         margin-top: -1%;
     }
-    #rogo3{
+    #rogo3 {
         width: 50%;
         margin-left: -20%;
         margin-top: -1%;
