@@ -17,20 +17,20 @@ h1 {
 
 h2 {
     color: #fff;
-    font-family: ff-basic-gothic-pro, sans-serif;
-    font-weight: 700;
+    font-family: din-2014, sans-serif;
+    font-weight: 800;
     font-style: italic;
-    font-size: 35px;
+    font-size: 2.3rem;
     text-shadow: 0 0 40px rgb(0, 0, 50);
     padding: 60px 0 0 0;
 }
 
 h3 {
     color: #fff;
-    font-family: ff-basic-gothic-pro, sans-serif;
+    font-family: din-2014, sans-serif;
     font-weight: 700;
     font-style: italic;
-    font-size: 20px;
+    font-size: 1.2rem;
     text-shadow: 0 0 40px rgb(0, 0, 50);
 }
 
@@ -40,13 +40,14 @@ p {
     font-weight: 500;
     font-style: italic;
     margin: 2%;
+    font-size: 1rem;
     text-shadow: 0 0 30px rgb(0, 0, 50);
     text-decoration: none;
 }
 
 .eiji {
-    font-family: ff-basic-gothic-pro, sans-serif;
-    font-weight: 500;
+    font-family: din-2014, sans-serif;
+    font-weight: 700;
     font-style: italic;
 }
 
@@ -112,24 +113,11 @@ body {
 }
 
 .item-title {
-    font-family: ff-basic-gothic-pro, sans-serif;
-    font-weight: 400;
+    font-family: din-2014, sans-serif;
+    font-weight: 600;
     font-style: italic;
-    margin: 15px 0px 5px 0px;
-    font-size: 1.2rem;
-    font-weight: 700;
-    color: #fff;
-    text-shadow: 0 0 10px rgb(203, 188, 255);
-    text-decoration: none;
-}
-
-.item-title2 {
-    font-family: ff-basic-gothic-pro, sans-serif;
-    font-weight: 400;
-    font-style: italic;
-    margin: 15px 0px 5px 0px;
+    margin: 15px 0px 15px 0px;
     font-size: 1.1rem;
-    font-weight: 700;
     color: #fff;
     text-shadow: 0 0 10px rgb(203, 188, 255);
     text-decoration: none;
@@ -141,10 +129,9 @@ body {
     box-shadow: 0 0 10px rgb(233, 227, 255);
 }
 
-#maru {
-    border-radius: 50%;
-    position: relative;
-    top: 5px;
+.h3ma {
+    margin: 2%;
+    font-size: 1.3rem;
 }
 
 .works {
@@ -172,7 +159,7 @@ body {
 }
 
 .rogos {
-    margin: 0 0 0 10%;
+    margin: 0 7% 0 10%;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -203,7 +190,7 @@ body {
 }
 
 #about {
-    padding: 2% 10% 10% 10%;
+    padding: 2% 10% 5% 10%;
     background-color: rgba(0, 0, 0, 0.788);
 }
 
@@ -214,6 +201,15 @@ body {
 
 .bleak {
     color: #000;
+    font-family: din-2014, sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+#maru {
+    border-radius: 50%;
+    position: relative;
+    top: 5px;
 }
 
 #bg-video {
@@ -251,12 +247,6 @@ body {
     margin-top: -1%;
 }
 
-#rogo3 {
-    width: 200px;
-    margin-left: -70%;
-    margin-top: -1%;
-}
-
 iframe {
     box-shadow: 0 0 50px rgb(233, 227, 255);
     margin: auto;
@@ -270,9 +260,6 @@ iframe {
         width: 99%;
     }
     .item-title {
-        font-size: 1.5rem;
-    }
-    .item-title2 {
         font-size: 1.2rem;
     }
 }
@@ -284,24 +271,26 @@ iframe {
     .item-title {
         font-size: 1.3rem;
     }
-    .item-title2 {
-        font-size: 1.2rem;
-    }
-    .item-title3 {
-        font-size: 1rem;
-    }
     iframe {
         width: 100%;
     }
-    #rogo2 {
-        width: 400px;
-        margin-left: -30%;
-        margin-top: -1%;
+    .rogos {
+        margin-right: 10%;
     }
-    #rogo3 {
-        width: 200px;
-        margin-left: -60%;
-        margin-top: -1%;
+    .rogo1 {
+        width: 30%;
+        margin: 0;
+    }
+    .rogo2 {
+        width: 120px;
+    }
+    .bleak {
+        font-size: 1px;
+    }
+    #maru {
+        height: 10px;
+        position: relative;
+        top: 1px;
     }
     .work1 {
         width: 100%;
@@ -320,15 +309,16 @@ iframe {
         margin-left: -30%;
         margin-top: -1%;
     }
-    #rogo3 {
-        width: 50%;
-        margin-left: -20%;
-        margin-top: -1%;
-    }
 }
 
 @media screen and (max-width: 500px) {
     .items .item {
-        width: 48%;
+        width: 45%;
+    }
+    .item-title {
+        font-size: 1rem;
+    }
+    #rogo {
+        width: 100%;
     }
 }
