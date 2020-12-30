@@ -247,6 +247,11 @@ body {
     margin-top: -1%;
 }
 
+.URL {
+    color: #4997c5;
+    font-size: 0.7rem;
+}
+
 iframe {
     box-shadow: 0 0 50px rgb(233, 227, 255);
     margin: auto;
