@@ -241,8 +241,9 @@ body {
     text-align: center;
     margin: auto;
 }
-#video-center{
-    text-align:center;
+
+#video-center {
+    text-align: center;
 }
 
 #rogo2 {
@@ -332,17 +333,19 @@ iframe {
     }
 }
 
-@media (aspect-ratio: 16/9), (min-aspect-ratio: 16/9) {
+@media (aspect-ratio: 16/9),
+(min-aspect-ratio: 16/9) {
     video {
-      width: 100%;
-      top: 50%;
-      transform: translateY(-50%);
+        width: 100%;
+        top: 50%;
+        transform: translateY(-50%);
     }
-  }
-  @media (max-aspect-ratio: 16/10) {
+}
+
+@media (max-aspect-ratio: 16/10) {
     video {
-      height: 100%;
-      left: 50%;
-      transform: translateX(-50%);
+        height: 100%;
+        left: 50%;
+        transform: translateX(-50%);
     }
-  }
+}
