@@ -1,11 +1,14 @@
 #top {
   height: 100%;
+<<<<<<< HEAD
 }
 html {
   visibility: hidden;
 }
 html.wf-active {
   visibility: visible;
+=======
+>>>>>>> 0fc978ceec17d2a99c2835fc18ed50211857593b
 }
 
 h1 {
