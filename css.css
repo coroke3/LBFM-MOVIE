@@ -1,14 +1,11 @@
 #top {
   height: 100%;
-<<<<<<< HEAD
 }
 html {
   visibility: hidden;
 }
 html.wf-active {
   visibility: visible;
-=======
->>>>>>> 0fc978ceec17d2a99c2835fc18ed50211857593b
 }
 
 h1 {
@@ -109,7 +106,7 @@ body {
 }
 
 .items .item {
-  width: 8.7%;
+  width: 8%;
   margin: 2px;
 }
 
@@ -271,9 +268,22 @@ iframe {
   margin: auto;
 }
 
+@media screen and (max-width: 1900px) {
+  .items .item {
+    width: 12%;
+    margin: 2%;
+  }
+  .im {
+    width: 99%;
+  }
+  .item-title {
+    font-size: 1.2rem;
+  }
+}
 @media screen and (max-width: 1400px) {
   .items .item {
     width: 15%;
+    margin: 0%;
   }
   .im {
     width: 99%;
