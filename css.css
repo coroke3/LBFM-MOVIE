@@ -267,6 +267,15 @@ iframe {
   box-shadow: 0 0 50px rgb(233, 227, 255);
   margin: auto;
 }
+#jikan {
+  letter-spacing: 0px;
+  font-size: 1.5rem;
+  padding-bottom: 20px;
+}
+#jikan2 {
+  letter-spacing: 0px;
+  padding-bottom: 60px;
+}
 
 @media screen and (max-width: 1900px) {
   .items .item {
