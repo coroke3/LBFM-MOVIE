@@ -90,13 +90,13 @@ body {
 .twitter {
   color: #b3ffff;
   text-decoration: none;
-  font-size: 25px;
+  font-style: normal;
 }
 
 .youtube {
   color: #ffb3b3;
   text-decoration: none;
-  font-size: 25px;
+  font-style: normal;
 }
 
 #rogo {
@@ -117,7 +117,7 @@ body {
 }
 
 .items .item {
-  width: 6.5%;
+  width: 10.8%;
   margin: 2px;
 }
 
@@ -148,7 +148,25 @@ body {
   margin: 2%;
   font-size: 1.3rem;
 }
-
+#profi {
+  color: #fff;
+  font-family: din-2014, sans-serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+  text-shadow: 0 0 10px rgb(190 190 255);
+}
+.profi {
+  flex-wrap: wrap;
+  display: flex;
+}
+.profi1 {
+  width: 300px;
+  margin: 0px 50px 20px 50px;
+}
+.profi2 {
+  width: 73%;
+  margin: auto;
+}
 .works {
   margin: 1% auto 1% auto;
   display: flex;
@@ -156,6 +174,7 @@ body {
   flex-wrap: wrap;
   max-width: 1000px;
 }
+
 #gyaku {
   flex-flow: row-reverse;
 }
@@ -193,6 +212,34 @@ body {
   width: 12%;
   position: relative;
   top: 18px;
+}
+.irais {
+  margin: 1% auto 1% auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 1000px;
+}
+.irai1 {
+  width: 150px;
+}
+.irai2 {
+  width: 450px;
+}
+.irai3 {
+  width: 150px;
+}
+.irai4 {
+  width: 130px;
+  margin: auto;
+}
+.irainame {
+  margin: 20px;
+  font-size: 100px;
+  padding: 0;
+  font-weight: 600;
+  font-style: normal;
+  font-family: Kanit;
 }
 .dekamoji {
   opacity: 0.2;
@@ -346,6 +393,10 @@ iframe {
   .item-title {
     font-size: 1.2rem;
   }
+  .profi2 {
+    width: 67%;
+    margin: auto;
+  }
 }
 @media screen and (max-width: 1550px) {
   .works {
@@ -376,6 +427,10 @@ iframe {
     width: 200px;
     top: -40px;
   }
+  .profi2 {
+    width: 63%;
+    margin: auto;
+  }
 }
 @media screen and (max-width: 1400px) {
   .items .item {
@@ -387,6 +442,10 @@ iframe {
   }
   .item-title {
     font-size: 1.2rem;
+  }
+  .profi2 {
+    width: 170px;
+    margin: auto;
   }
 }
 @media screen and (max-width: 1240px) {
@@ -478,6 +537,14 @@ iframe {
     width: 70%;
     margin-left: -30%;
     margin-top: -1%;
+  }
+}
+@media screen and (max-width: 600px) {
+  #rogo {
+    width: 100%;
+  }
+  .profi1 {
+    width: 100%;
   }
 }
 
