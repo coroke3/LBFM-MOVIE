@@ -222,6 +222,7 @@ body {
   justify-content: space-between;
   flex-wrap: wrap;
   width: 1500px;
+  border-bottom: solid #ffffff 0.5px;
 }
 .irai1 {
   width: 100px;
@@ -257,8 +258,8 @@ body {
 }
 .irai7 {
   width: 280px;
-  margin: auto;
-  height: 150px;
+  margin: 5px;
+  height: 140px;
 }
 .irai8 {
   font-size: 0.7rem;
@@ -470,6 +471,7 @@ iframe {
   .irai7 iframe {
     height: 190px;
     width: 100%;
+    margin-bottom: 15px;
   }
   .irai7 {
     width: 370px;
@@ -578,7 +580,7 @@ iframe {
 @media screen and (max-width: 810px) {
   .irais {
     width: 400px;
-    margin: 50px auto 50px auto;
+    padding: 50px auto 50px auto;
   }
   .irai7 iframe {
     height: 190px;
