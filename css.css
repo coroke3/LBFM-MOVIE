@@ -268,25 +268,7 @@ body {
   padding: 30px 0 30px 0;
   font-size: 30px;
 }
-.target {
-  background-color: #ea3345;
-  padding: 10px;
-  line-height: 1.5;
-  transition: padding-top 300ms, line-height 300ms;
-}
-.target.is-hidden {
-  padding-top: 0;
-  padding-bottom: 0;
-  line-height: 0;
-  pointer-events: none;
-}
-.text {
-  color: white;
-  transition: opacity 200ms;
-}
-.target.is-hidden .text {
-  opacity: 0;
-}
+
 .dekamoji {
   opacity: 0.2;
   width: 250px;
@@ -605,11 +587,21 @@ iframe {
   }
   .irais {
     width: 400px;
+    margin: 50px auto 50px auto;
   }
   .irai7 iframe {
     height: 190px;
-    margin: 5%;
-    width: 90%;
+    margin: 4%;
+    width: 92%;
+  }
+  .irai1 {
+    width: 90px;
+  }
+  .irai3 {
+    width: 90px;
+  }
+  .irai2 h2 {
+    padding: 25px 0 25px 0;
   }
 }
 @media screen and (max-width: 600px) {
