@@ -213,33 +213,79 @@ body {
   position: relative;
   top: 18px;
 }
+.iraiss {
+  width: 100%;
+}
 .irais {
-  margin: 1% auto 1% auto;
+  margin: auto;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  width: 1000px;
+  width: 1500px;
 }
 .irai1 {
-  width: 150px;
+  width: 100px;
+  padding: 25px 0 25px 0;
 }
 .irai2 {
-  width: 450px;
+  width: 220px;
+  padding: 25px 0 25px 0;
 }
 .irai3 {
-  width: 150px;
+  width: 100px;
+  padding: 25px 0 25px 0;
 }
 .irai4 {
   width: 130px;
   margin: auto;
 }
-.irainame {
-  margin: 20px;
-  font-size: 100px;
-  padding: 0;
-  font-weight: 600;
-  font-style: normal;
-  font-family: Kanit;
+.irai5 {
+  width: 160px;
+  color: #fff;
+  margin: auto;
+  font-family: din-2014, sans-serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+.irai6 {
+  width: 250px;
+  color: #fff;
+  margin: auto;
+  font-family: din-2014, sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+}
+.irai7 {
+  width: 280px;
+  margin: auto;
+  height: 150px;
+}
+.irai8 {
+  font-size: 0.7rem;
+}
+.irai2 h2 {
+  margin: auto;
+  padding: 30px 0 30px 0;
+  font-size: 30px;
+}
+.target {
+  background-color: #ea3345;
+  padding: 10px;
+  line-height: 1.5;
+  transition: padding-top 300ms, line-height 300ms;
+}
+.target.is-hidden {
+  padding-top: 0;
+  padding-bottom: 0;
+  line-height: 0;
+  pointer-events: none;
+}
+.text {
+  color: white;
+  transition: opacity 200ms;
+}
+.target.is-hidden .text {
+  opacity: 0;
 }
 .dekamoji {
   opacity: 0.2;
@@ -290,6 +336,11 @@ body {
 
 #about {
   padding: 2% 10% 5% 10%;
+  background-color: rgba(0, 0, 0, 0.788);
+}
+#aboutira {
+  padding: auto;
+  margin: auto;
   background-color: rgba(0, 0, 0, 0.788);
 }
 
