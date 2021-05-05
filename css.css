@@ -498,6 +498,17 @@ iframe {
     width: 170px;
     margin: auto;
   }
+  .irais {
+    width: 800px;
+  }
+  .irai7 iframe {
+    height: 190px;
+    width: 100%;
+  }
+  .irai7 {
+    width: 370px;
+    height: auto;
+  }
 }
 @media screen and (max-width: 1240px) {
   .works {
@@ -588,6 +599,14 @@ iframe {
     width: 70%;
     margin-left: -30%;
     margin-top: -1%;
+  }
+  .irais {
+    width: 400px;
+  }
+  .irai7 iframe {
+    height: 190px;
+    margin: 5%;
+    width: 90%;
   }
 }
 @media screen and (max-width: 600px) {
