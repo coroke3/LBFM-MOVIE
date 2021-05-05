@@ -589,6 +589,9 @@ iframe {
   .URL3 {
     font-size: 0.6rem;
   }
+  #irait {
+    font-size: 6rem;
+  }
 }
 
 @media screen and (max-width: 750px) {
