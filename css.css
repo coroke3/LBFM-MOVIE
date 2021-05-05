@@ -464,6 +464,17 @@ iframe {
     width: 63%;
     margin: auto;
   }
+  .irais {
+    width: 800px;
+  }
+  .irai7 iframe {
+    height: 190px;
+    width: 100%;
+  }
+  .irai7 {
+    width: 370px;
+    height: auto;
+  }
 }
 @media screen and (max-width: 1400px) {
   .items .item {
@@ -479,17 +490,6 @@ iframe {
   .profi2 {
     width: 170px;
     margin: auto;
-  }
-  .irais {
-    width: 800px;
-  }
-  .irai7 iframe {
-    height: 190px;
-    width: 100%;
-  }
-  .irai7 {
-    width: 370px;
-    height: auto;
   }
 }
 @media screen and (max-width: 1240px) {
@@ -575,6 +575,17 @@ iframe {
     font-size: 1rem;
   }
 }
+@media screen and (max-width: 810px) {
+  .irais {
+    width: 400px;
+    margin: 50px auto 50px auto;
+  }
+  .irai7 iframe {
+    height: 190px;
+    margin: 4%;
+    width: 92%;
+  }
+}
 
 @media screen and (max-width: 750px) {
   .items .item {
@@ -585,15 +596,7 @@ iframe {
     margin-left: -30%;
     margin-top: -1%;
   }
-  .irais {
-    width: 400px;
-    margin: 50px auto 50px auto;
-  }
-  .irai7 iframe {
-    height: 190px;
-    margin: 4%;
-    width: 92%;
-  }
+
   .irai1 {
     width: 90px;
   }
@@ -622,6 +625,21 @@ iframe {
   }
   #rogo {
     width: 100%;
+  }
+  .irais {
+    width: 95%;
+    margin: auto;
+  }
+  .irai1 {
+    width: 20%;
+  }
+  .irai3 {
+    width: 20%;
+  }
+  .irai2 {
+    width: 60%;
+    margin: 0;
+    padding: 23px 0 10px 0;
   }
 }
 
