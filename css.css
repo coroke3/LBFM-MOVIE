@@ -610,6 +610,10 @@ iframe {
   }
 }
 @media screen and (max-width: 600px) {
+  h4 {
+    font-size: 2rem;
+    margin: 20px;
+  }
   #rogo {
     width: 100%;
   }
